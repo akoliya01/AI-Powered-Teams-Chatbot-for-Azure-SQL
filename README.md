@@ -22,8 +22,8 @@ A Microsoft Teams bot that uses Azure OpenAI to generate schema-aware SQL querie
 ### 1. Clone the repository
 
 ```sh
-git clone <your-repo-url>
-cd <your-repo-directory>
+git clone git@github.com:akoliya01/AI-Powered-Teams-Chatbot-for-Azure-SQL.git
+cd AI-Powered-Teams-Chatbot-for-Azure-SQL
 ```
 
 ### 2. Install dependencies
