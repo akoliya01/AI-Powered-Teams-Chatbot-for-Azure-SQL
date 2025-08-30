@@ -1,0 +1,41 @@
+{
+    "$schema": "https://developer.microsoft.com/en-us/json-schemas/teams/v1.16/MicrosoftTeams.schema.json",
+    "manifestVersion": "1.16",
+    "version": "1.2.0",
+    "id": "<Microsoft App ID>",
+    "packageName": "com.company.sqlassistant",
+    "name": {
+      "short": "SQL Bot",
+      "full": "SQL Assistant Bot for Azure SQL"
+    },
+    "developer": {
+      "name": "MICROSOFT",
+      "websiteUrl": "https://microsoft.com",
+      "privacyUrl": "https://microsoft.com/privacy",
+      "termsOfUseUrl": "https://microsoft.com/terms"
+    },
+    "description": {
+      "short": "Query AdvatureWorkd data securely.",
+      "full": "This chatbot allows employees to query Azure SQL database using natural language, with Azure OpenAI and role-based access control."
+    },
+    "icons": {
+      "outline": "outline.png",
+      "color": "color.png"
+    },
+    "accentColor": "#6264A7",
+    "bots": [
+      {
+        "botId": "<Microsoft App ID>",
+        "scopes": ["personal", "team", "groupchat"],
+        "supportsFiles": false,
+        "isNotificationOnly": false
+      }
+    ],
+    "permissions": ["identity", "messageTeamMembers"],
+    "validDomains": [],
+    "webApplicationInfo": {
+      "id": "<Microsoft App ID>",
+      "resource": "api://<Microsoft App ID>"
+    }
+  }
+  
